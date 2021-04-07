@@ -59,6 +59,7 @@ a {
   right: 32px;
   font-size: 24px;
   color: black;
+  display: none;
 }
 
 @media screen and (max-width: 768px) {
@@ -82,5 +83,9 @@ a {
   .navbar__icons {
     justify-content: center;
     width: 100%;
+  }
+
+  .navbar__toggleBtn {
+    display: block;
   }
 }
