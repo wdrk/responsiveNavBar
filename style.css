@@ -1,0 +1,50 @@
+body {
+  margin: 0px;
+  font-family: "Open Sans", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: cadetblue;
+  padding: 8px 12px;
+}
+.navbar__logo {
+  font-size: 24px;
+  color: white;
+}
+
+.navbar__logo i {
+  color: black;
+}
+
+.navbar__menu {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+
+.navbar__menu li {
+  padding: 8px 12px;
+}
+
+.navbar__menu li:hover {
+  background-color: darkkhaki;
+  border-radius: 6px;
+}
+
+.navbar__icons {
+  display: flex;
+  list-style: none;
+  color: white;
+  padding-left: 0;
+}
+
+.navbar__icons li {
+  padding: 8px 10px;
+}
