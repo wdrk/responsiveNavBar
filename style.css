@@ -50,6 +50,14 @@ a {
   padding: 8px 12px;
 }
 
+.navbar__toogleBtn {
+  display: none;
+  position: absolute;
+  right: 32px;
+  font-size: 24px;
+  color: #d49466;
+}
+
 @media screen and (max-width: 768px) {
   .navbar {
     flex-direction: column;
@@ -68,5 +76,8 @@ a {
   .navbar__icons {
     justify-content: center;
     width: 100%;
+  }
+  .navbar__toogleBtn {
+    display: block;
   }
 }
